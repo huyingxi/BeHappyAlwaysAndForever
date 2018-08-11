@@ -1,6 +1,6 @@
 ### gate attention and  add semantic relevance
 
-##### 一:<Modeling Human Reading with Neural Attention >[Paper](https://arxiv.org/pdf/1608.05604.pdf)
+##### 一: Modeling Human Reading with Neural Attention [Paper](https://arxiv.org/pdf/1608.05604.pdf)
 
 ​       将rnn cell里常见的update gate单独拎出来，使用hard attention来进一步实现。从而实现了在encoder过程中skip一些词的效果。
 
@@ -20,7 +20,7 @@
 
 ​      那么看这个论文的原因主要是另外一篇论文引用了它的这种在encoder过程里加上了gate attention部分。
 
-##### 二:<Improving Semantic Relevance for Sequence-to-Sequence Learning of Chinese Social Media Text Summarization >[Paper](http://xueshu.baidu.com/s?wd=paperuri%3A%28445a1bdcad0e11eea8c09fe7d8cd965a%29&filter=sc_long_sign&tn=SE_xueshusource_2kduw22v&sc_vurl=http%3A%2F%2Farxiv.org%2Fabs%2F1706.02459&ie=utf-8&sc_us=16357873022190972693)
+##### 二:Improving Semantic Relevance for Sequence-to-Sequence Learning of Chinese Social Media Text Summarization [Paper](http://xueshu.baidu.com/s?wd=paperuri%3A%28445a1bdcad0e11eea8c09fe7d8cd965a%29&filter=sc_long_sign&tn=SE_xueshusource_2kduw22v&sc_vurl=http%3A%2F%2Farxiv.org%2Fabs%2F1706.02459&ie=utf-8&sc_us=16357873022190972693)
 
 ​       文章指出abstract summary存在的主要问题是得到的summary和原文相似但是语义上相差很多。举了一个栗子:
 
