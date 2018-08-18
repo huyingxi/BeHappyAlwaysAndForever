@@ -1,5 +1,6 @@
 模型本身没有什么可说的其实。主要是结合场景去解释。
 #### wide+deep
+[Wide & Deep Learning for Recommender Systems](https://arxiv.org/pdf/1606.07792.pdf/)
 ![image](http://ox5l2b8f4.bkt.clouddn.com/images/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0%20-%20Wide%20and%20Deep%20Learning%20for%20Recommender%20Systems/1.jpg)
 一般的推荐系统的总体架构。主要两部分，候选生成模型和排序系统。具体使用的时候，针对当前的用户和场景，首先从海量数据集里筛选出一小部分作为候选，而后将这个小集合再放到模型里进行打分排序。
 
@@ -18,7 +19,7 @@ Deep部分就是DNN模型了。原始的稀疏，高维特征首先会转换成e
 ![image](http://ox5l2b8f4.bkt.clouddn.com/images/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0%20-%20Wide%20and%20Deep%20Learning%20for%20Recommender%20Systems/4.jpg)
 
 #### DeepFM
-
+[DeepFM: A Factorization-Machine based Neural Network for CTR Prediction](https://arxiv.org/pdf/1703.04247.pdf)
 模型架构上面基本一样，区别在于Wide部分改为了FM。
 ![image](https://note.youdao.com/yws/public/resource/74e30b2073532fef8651d868894bc264/1D491888086F4CE098A8D3BA0C6B84F4?ynotemdtimestamp=1534595782475)
 文章先举了一些例子，如人们在吃饭的时候下载美食app(2-order,时间和app类别)，男性儿童喜欢射击游戏(3-order,性别，年龄，app类别)。特征工程比较难以涵盖所有n-order特征。而DeepFM模型以原始特征作为输入，可以同时抽象出浅层和深层特征去做预测。
