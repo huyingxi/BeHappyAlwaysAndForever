@@ -32,7 +32,7 @@ YouTube视频推荐的特点:数据量大，视频更新很快，数据非常稀
 
 ##### Ranking
 基本的模型结构和之前类似。
-![image](https://note.youdao.com/yws/public/resource/74e30b2073532fef8651d868894bc264/A52BAF90C39E4527AADB1FA1F0632314?ynotemdtimestamp=1534598811603)
+![image](https://note.youdao.com/yws/public/resource/74e30b2073532fef8651d868894bc264/D6FF7B8EA5A5424EB0D209FA320361F6?ynotemdtimestamp=1534604934730)
 
 这里有两个点需要注意。
 
